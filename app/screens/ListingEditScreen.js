@@ -95,7 +95,7 @@ function ListingEditScreen() {
 
     if (!result.ok) {
       setUploadVisible(false);
-      return alert("Could not save the listing.");
+      return alert("Could not save the listing");
     }
 
     resetForm();

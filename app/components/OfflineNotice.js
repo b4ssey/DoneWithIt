@@ -1,9 +1,10 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import colors from "../config/colors";
-import Text from "./Text";
 import Constants from "expo-constants";
 import { useNetInfo } from "@react-native-community/netinfo";
+
+import Text from "./Text";
+import colors from "../config/colors";
 
 function OfflineNotice(props) {
   const netInfo = useNetInfo();

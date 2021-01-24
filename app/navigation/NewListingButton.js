@@ -1,8 +1,8 @@
 import React from "react";
 import { View, StyleSheet, TouchableOpacity } from "react-native";
-import colors from "../config/colors";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import {} from "react-native-gesture-handler";
+
+import colors from "../config/colors";
 
 function NewListingButton({ onPress }) {
   return (
@@ -26,8 +26,8 @@ const styles = StyleSheet.create({
     borderRadius: 40,
     borderWidth: 10,
     bottom: 20,
-    justifyContent: "center",
     height: 80,
+    justifyContent: "center",
     width: 80,
   },
 });
